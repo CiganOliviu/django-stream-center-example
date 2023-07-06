@@ -5,4 +5,4 @@ class Stream(models.Model):
     file_stream = models.FileField(upload_to='streams')
 
     def __str__(self):
-        return self.id
+        return self.identifier
